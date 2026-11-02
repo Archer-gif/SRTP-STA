@@ -1,0 +1,9 @@
+{
+  "prompt": "A group of horses gallops over a wide plain with dust trailing behind.",
+  "seed": 1245,
+  "steps": 50,
+  "keep_full_steps": 12,
+  "shift": 8,
+  "guide": 6,
+  "checkpoint": "/model/HuggingFace/Wan-AI/Wan2.1-T2V-1.3B"
+}

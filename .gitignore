@@ -1,0 +1,15 @@
+Wan2.1/
+models/
+results/
+outputs/
+*.mp4
+*.log
+*.wall_seconds.txt
+__pycache__/
+*.pyc
+.venv/
+.cache/
+*.trace.json.gz
+sta_calibration_50/prompt_*.csv
+sta_calibration_50/sta_search_csv.zip
+!sta_calibration_50/strategies/sta_strategy_sweep.csv

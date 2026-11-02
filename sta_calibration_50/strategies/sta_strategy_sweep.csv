@@ -1,0 +1,6 @@
+threshold,full_head_settings,local_head_settings,qk_ratio_to_full,strategy
+0.02,13866,4134,0.7830559729918705,/root/wan_srtp/sta_calibration_50/strategies/sta_strategy_mse_0p02.json
+0.05,11317,6683,0.6467891335363862,/root/wan_srtp/sta_calibration_50/strategies/sta_strategy_mse_0p05.json
+0.1,8845,9155,0.5127425491344906,/root/wan_srtp/sta_calibration_50/strategies/sta_strategy_mse_0p1.json
+0.2,6999,11001,0.40677824944354246,/root/wan_srtp/sta_calibration_50/strategies/sta_strategy_mse_0p2.json
+0.5,5189,12811,0.30041324201168523,/root/wan_srtp/sta_calibration_50/strategies/sta_strategy_mse_0p5.json

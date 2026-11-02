@@ -1,0 +1,154 @@
+{
+  "samples": [
+    {
+      "name": "sports_car",
+      "prompt": "A red sports car drives quickly from left to right while the camera pans to follow it.",
+      "sta_rmse_8bit": 61.19754210878285,
+      "sta_psnr_db": 12.396124012182433,
+      "sta_ssim_to_full": 0.546719021016582,
+      "sta_temporal_ssim": 0.6885709078875646,
+      "adaptive_rmse_8bit": 53.77322581409009,
+      "adaptive_psnr_db": 13.519481803727725,
+      "adaptive_ssim_to_full": 0.5921044110762308,
+      "adaptive_temporal_ssim": 0.6818190072601349,
+      "full_wall_seconds": 308.26,
+      "sta_wall_seconds": 286.93,
+      "adaptive_wall_seconds": 292.76,
+      "sta_denoise_seconds": 151.70296291900013,
+      "adaptive_denoise_seconds": 160.203285435,
+      "wall_speedup_percent": 5.028222928696557,
+      "adaptive_wall_vs_sta_percent": 2.0318544592757837,
+      "adaptive_ssim_minus_sta": 0.04538539005964881,
+      "adaptive_psnr_minus_sta": 1.123357791545292
+    },
+    {
+      "name": "station_walk",
+      "prompt": "A woman in a red coat walks through a crowded train station while the camera tracks beside her and people briefly occlude her.",
+      "sta_rmse_8bit": 60.58659987145982,
+      "sta_psnr_db": 12.483271998424062,
+      "sta_ssim_to_full": 0.4898395486906653,
+      "sta_temporal_ssim": 0.7320716535459977,
+      "adaptive_rmse_8bit": 55.60075841153158,
+      "adaptive_psnr_db": 13.229189298010333,
+      "adaptive_ssim_to_full": 0.5176008398690195,
+      "adaptive_temporal_ssim": 0.7186681115894369,
+      "full_wall_seconds": 313.87,
+      "sta_wall_seconds": 283.15,
+      "adaptive_wall_seconds": 292.72,
+      "sta_denoise_seconds": 151.2142174239998,
+      "adaptive_denoise_seconds": 160.5221236339994,
+      "wall_speedup_percent": 6.738458597508512,
+      "adaptive_wall_vs_sta_percent": 3.3798340102419333,
+      "adaptive_ssim_minus_sta": 0.027761291178354186,
+      "adaptive_psnr_minus_sta": 0.7459172995862708
+    },
+    {
+      "name": "ocean_lighthouse",
+      "prompt": "The camera flies low over detailed ocean waves toward a white lighthouse during sunrise, with reflections moving across the water.",
+      "sta_rmse_8bit": 34.6815697351904,
+      "sta_psnr_db": 17.328828688476243,
+      "sta_ssim_to_full": 0.6205492954443829,
+      "sta_temporal_ssim": 0.8477047432300804,
+      "adaptive_rmse_8bit": 31.52864153141404,
+      "adaptive_psnr_db": 18.15669843293485,
+      "adaptive_ssim_to_full": 0.6594005759504984,
+      "adaptive_temporal_ssim": 0.8680315949871058,
+      "full_wall_seconds": 311.03,
+      "sta_wall_seconds": 287.1,
+      "adaptive_wall_seconds": 292.62,
+      "sta_denoise_seconds": 150.5497204100002,
+      "adaptive_denoise_seconds": 160.51933850099977,
+      "wall_speedup_percent": 5.9190431791145475,
+      "adaptive_wall_vs_sta_percent": 1.9226750261232883,
+      "adaptive_ssim_minus_sta": 0.038851280506115526,
+      "adaptive_psnr_minus_sta": 0.8278697444586065
+    }
+  ],
+  "aggregate": {
+    "sta_rmse_8bit": {
+      "mean": 52.15523723847769,
+      "min": 34.6815697351904,
+      "max": 61.19754210878285
+    },
+    "sta_psnr_db": {
+      "mean": 14.069408233027579,
+      "min": 12.396124012182433,
+      "max": 17.328828688476243
+    },
+    "sta_ssim_to_full": {
+      "mean": 0.5523692883838767,
+      "min": 0.4898395486906653,
+      "max": 0.6205492954443829
+    },
+    "sta_temporal_ssim": {
+      "mean": 0.7561157682212142,
+      "min": 0.6885709078875646,
+      "max": 0.8477047432300804
+    },
+    "adaptive_rmse_8bit": {
+      "mean": 46.9675419190119,
+      "min": 31.52864153141404,
+      "max": 55.60075841153158
+    },
+    "adaptive_psnr_db": {
+      "mean": 14.968456511557635,
+      "min": 13.229189298010333,
+      "max": 18.15669843293485
+    },
+    "adaptive_ssim_to_full": {
+      "mean": 0.5897019422985829,
+      "min": 0.5176008398690195,
+      "max": 0.6594005759504984
+    },
+    "adaptive_temporal_ssim": {
+      "mean": 0.7561729046122259,
+      "min": 0.6818190072601349,
+      "max": 0.8680315949871058
+    },
+    "full_wall_seconds": {
+      "mean": 311.05333333333334,
+      "min": 308.26,
+      "max": 313.87
+    },
+    "sta_wall_seconds": {
+      "mean": 285.7266666666667,
+      "min": 283.15,
+      "max": 287.1
+    },
+    "adaptive_wall_seconds": {
+      "mean": 292.7,
+      "min": 292.62,
+      "max": 292.76
+    },
+    "sta_denoise_seconds": {
+      "mean": 151.15563358433337,
+      "min": 150.5497204100002,
+      "max": 151.70296291900013
+    },
+    "adaptive_denoise_seconds": {
+      "mean": 160.4149158566664,
+      "min": 160.203285435,
+      "max": 160.5221236339994
+    },
+    "wall_speedup_percent": {
+      "mean": 5.8952415684398725,
+      "min": 5.028222928696557,
+      "max": 6.738458597508512
+    },
+    "adaptive_wall_vs_sta_percent": {
+      "mean": 2.444787831880335,
+      "min": 1.9226750261232883,
+      "max": 3.3798340102419333
+    },
+    "adaptive_ssim_minus_sta": {
+      "mean": 0.03733265391470617,
+      "min": 0.027761291178354186,
+      "max": 0.04538539005964881
+    },
+    "adaptive_psnr_minus_sta": {
+      "mean": 0.8990482785300564,
+      "min": 0.7459172995862708,
+      "max": 1.123357791545292
+    }
+  }
+}

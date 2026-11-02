@@ -1,0 +1,9 @@
+{
+  "prompt": "A waterfall flows over dark rocks in a green forest, with the camera moving upward.",
+  "seed": 1248,
+  "steps": 50,
+  "keep_full_steps": 12,
+  "shift": 8,
+  "guide": 6,
+  "checkpoint": "/model/HuggingFace/Wan-AI/Wan2.1-T2V-1.3B"
+}

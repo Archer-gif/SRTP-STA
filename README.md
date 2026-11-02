@@ -22,11 +22,16 @@ STA 先用 16 条 prompt 的全注意力输出离线标定 `step × layer × hea
 | `sta_calibration_50/strategies/sta_strategy_mse_0p1.json` | TC-STA 的原始 STA 0.1 策略 |
 | `adaptive_multiroute_experiment/strategy_energy_safe.json` | 推荐 Adaptive 策略，200 个 full-head 位置已离线改写 |
 | `scripts/run_reproduction.sh` | 可移植的四种模式运行入口 |
-| `adaptive_multiroute_experiment/benchmark_victorian/analysis_final/` | 单 prompt 指标和对比图 |
-| `adaptive_multiroute_experiment/benchmark_multi_prompt/analysis_sta/` | 三条独立 prompt 的配对指标和对比图 |
+| `adaptive_multiroute_experiment/benchmark_victorian/analysis_final/` | 单 prompt 指标、速度质量图和生成帧对比 |
+| `adaptive_multiroute_experiment/benchmark_multi_prompt/analysis_sta/` | 三条独立 prompt 的配对指标和生成帧对比 |
 | `adaptive_multiroute_experiment/profiling/` | 真实 QKV 热点报告和结构化计时 |
 
-![Victorian 场景对比帧](adaptive_multiroute_experiment/benchmark_victorian/analysis_final/comparison_frames.png)
+![Victorian 场景质量与速度](adaptive_multiroute_experiment/benchmark_victorian/analysis_final/quality_speed_chart.png)
+
+![Victorian 场景生成帧对比](adaptive_multiroute_experiment/benchmark_victorian/analysis_final/comparison_frames.png)
+
+![三条 prompt 生成帧对比](adaptive_multiroute_experiment/benchmark_multi_prompt/analysis_sta/multi_prompt_comparison.png)
+
+原始标定 CSV 以 25 个 `.zip.part-*` 文件保存；重建命令和 SHA256 校验见 [REPRODUCE.md](REPRODUCE.md#4-从标定数据重建策略)。
 
 本仓库是研究快照，原 Wan 仓库与模型分别属于原作者；请遵守对应许可证与使用条款。
-

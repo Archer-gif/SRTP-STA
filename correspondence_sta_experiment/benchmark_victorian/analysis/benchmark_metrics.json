@@ -1,0 +1,38 @@
+{
+  "quality_vs_full": {
+    "STA 0.1": {
+      "rmse_8bit": 51.8223848381421,
+      "psnr_db": 13.840455706538524,
+      "ssim_to_full": 0.5297898387610804,
+      "temporal_ssim": 0.9496696215277668
+    },
+    "Hybrid 0.1": {
+      "rmse_8bit": 47.725554115431706,
+      "psnr_db": 14.555784019642733,
+      "ssim_to_full": 0.5618577337967284,
+      "temporal_ssim": 0.9620432301299054
+    },
+    "TC-STA": {
+      "rmse_8bit": 43.74263330836405,
+      "psnr_db": 15.312705127985724,
+      "ssim_to_full": 0.5873710916885421,
+      "temporal_ssim": 0.9621059420773836
+    }
+  },
+  "wall_seconds": {
+    "STA 0.1 Flex": 295.31,
+    "Hybrid 0.1": 300.92772483825684,
+    "TC-STA": 311.15
+  },
+  "qk_percent_of_full": {
+    "STA 0.1 Flex": 51.274254913449056,
+    "TC-STA": 51.46183249324275
+  },
+  "tc_sta_candidate_tile_scores": 345336480,
+  "tc_sta_anchor_acceptance": {
+    "accepted": 12060714,
+    "eligible_topk_slots": 43159544,
+    "percent": 27.944488940847013
+  },
+  "tc_sta_denoise_seconds": 172.03945956700045
+}

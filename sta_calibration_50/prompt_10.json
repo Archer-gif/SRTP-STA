@@ -1,0 +1,9 @@
+{
+  "prompt": "Rain falls on a neon lit street while pedestrians cross an intersection.",
+  "seed": 1244,
+  "steps": 50,
+  "keep_full_steps": 12,
+  "shift": 8,
+  "guide": 6,
+  "checkpoint": "/model/HuggingFace/Wan-AI/Wan2.1-T2V-1.3B"
+}

@@ -1,0 +1,66 @@
+{
+  "quality_vs_full": {
+    "STA 0.1": {
+      "rmse_8bit": 51.8223848381421,
+      "psnr_db": 13.840455706538524,
+      "ssim_to_full": 0.5297898387610804,
+      "temporal_ssim": 0.9496696215277668
+    },
+    "TC-STA": {
+      "rmse_8bit": 43.74263330836405,
+      "psnr_db": 15.312705127985724,
+      "ssim_to_full": 0.5873710916885421,
+      "temporal_ssim": 0.9621059420773836
+    },
+    "Adaptive guarded": {
+      "rmse_8bit": 42.959302938762576,
+      "psnr_db": 15.469659091676405,
+      "ssim_to_full": 0.5940862393947646,
+      "temporal_ssim": 0.9634576543858187
+    },
+    "Adaptive speed": {
+      "rmse_8bit": 43.322144770764325,
+      "psnr_db": 15.39660462235106,
+      "ssim_to_full": 0.5932081829325483,
+      "temporal_ssim": 0.9631869282393668
+    }
+  },
+  "wall_seconds": {
+    "STA 0.1": 295.31,
+    "TC-STA": 311.15,
+    "Adaptive guarded": 308.4,
+    "Adaptive speed": 309.87
+  },
+  "denoise_seconds": {
+    "STA 0.1": 159.4716236740005,
+    "TC-STA": 172.03945956700045,
+    "Adaptive guarded": 173.34054741800014,
+    "Adaptive speed": 172.19602194800018
+  },
+  "qk_percent_of_full": {
+    "STA 0.1": 51.274254913449056,
+    "TC-STA": 51.46183249324275,
+    "Adaptive guarded": 50.890228607879706,
+    "Adaptive speed": 50.56256428332893
+  },
+  "route_cardinality": {
+    "Adaptive guarded": {
+      "one_route_tiles": 814983,
+      "two_route_tiles": 747225,
+      "three_route_tiles": 1576200,
+      "expanded_tile_percent": 74.0319614275773,
+      "average_routes": 2.242548769949605
+    },
+    "Adaptive speed": {
+      "one_route_tiles": 809630,
+      "two_route_tiles": 748435,
+      "three_route_tiles": 1580343,
+      "expanded_tile_percent": 74.20252561171142,
+      "average_routes": 2.2455745078396436
+    }
+  },
+  "candidate_tile_scores": {
+    "Adaptive guarded": 349244640,
+    "Adaptive speed": 350391600
+  }
+}

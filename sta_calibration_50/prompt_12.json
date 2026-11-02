@@ -1,0 +1,9 @@
+{
+  "prompt": "A close view of hands folding a paper crane on a desk by a window.",
+  "seed": 1246,
+  "steps": 50,
+  "keep_full_steps": 12,
+  "shift": 8,
+  "guide": 6,
+  "checkpoint": "/model/HuggingFace/Wan-AI/Wan2.1-T2V-1.3B"
+}
